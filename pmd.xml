@@ -40,9 +40,9 @@
                         <rule ref="category/java/bestpractices.xml/UnusedLocalVariable" />
                         <!-- si existen System.out.println -->
                         <rule ref="category/java/bestpractices.xml/SystemPrintln" />
-                        <!-- Si se está llamando al método toString() sobre objetos que ya son Strings -->
+                        <!-- Si se está llamando al método toString() sobre objetos que ya son Strings -->
                         <rule ref="category/java/performance.xml/StringToString" />
-                        <!-- Si se está realizando sólo una declaración por línea   -->
+                        <!-- Si se está realizando sólo una declaración por línea   -->
                         <rule ref="category/java/bestpractices.xml/OneDeclarationPerLine" />
 
 
