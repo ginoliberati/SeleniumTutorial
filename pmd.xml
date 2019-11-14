@@ -1,6 +1,8 @@
-<reporting>
-    <plugins>
-        <plugin>
+<project>
+
+    <reporting>
+        <plugins>
+            <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
             <version>4.0.0</version>
@@ -10,6 +12,8 @@
                     <ruleset></ruleset>
                 </rulesets>
             </configuration>
-        </plugin>
-    </plugins>
-</reporting>
+            </plugin>
+        </plugins>
+    </reporting>
+
+</project>
