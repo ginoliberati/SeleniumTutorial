@@ -5,14 +5,12 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
+         <version>4.0.0</version>
         <configuration>
             <failOnViolation>true</failOnViolation> <!-- this is actually true by default, but can be disabled -->
             <printFailingErrors>true</printFailingErrors>
                 <rulesets>
-                    <ruleset>/rulesets/java/braces.xml</ruleset>
-                    <ruleset>/rulesets/java/naming.xml</ruleset>
-                    <ruleset>d:\rulesets\strings.xml</ruleset>
-                    <ruleset>http://localhost/design.xml</ruleset>
+                  
                 </rulesets>
           </configuration>
         <executions>
