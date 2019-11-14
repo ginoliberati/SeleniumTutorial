@@ -1,15 +1,18 @@
 <?xml version="1.0"?>
 
-<ruleset name="Custom Rules"
-    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
-
-    <description>
-        My custom rules
-    </description>
-
-
-    <!-- Your rules will come here -->
-
-</ruleset>
+<reporting>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+            <version>2.7.1</version>
+            <configuration>
+                <linkXRef>false</linkXRef>
+                <targetJdk>1.6</targetJdk>
+                <rulesets>
+                    <ruleset>/rulesets/basic.xml</ruleset>
+                </rulesets>
+            </configuration>
+        </plugin>
+    </plugins>
+</reporting>
