@@ -1,27 +1,15 @@
-<project>
-  
-  <build>
+<reporting>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-pmd-plugin</artifactId>
-         <version>4.0.0</version>
-        <configuration>
-            <failOnViolation>true</failOnViolation> <!-- this is actually true by default, but can be disabled -->
-            <printFailingErrors>true</printFailingErrors>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-pmd-plugin</artifactId>
+            <version>4.0.0</version>
+            <configuration>
+                <linkXRef>false</linkXRef>
                 <rulesets>
-                  
+                    <ruleset></ruleset>
                 </rulesets>
-          </configuration>
-        <executions>
-          <execution>
-            <goals>
-              <goal>check</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
+            </configuration>
+        </plugin>
     </plugins>
-  </build>
-  
-</project>
+</reporting>
