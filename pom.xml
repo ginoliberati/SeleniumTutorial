@@ -1,5 +1,4 @@
-<project>
-   <build> 
+
     <reporting>
         <plugins>
             <plugin>
@@ -9,5 +8,4 @@
             </plugin>
         </plugins>
     </reporting>
-    </build>
-</project>
+
