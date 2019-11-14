@@ -5,10 +5,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
-        <configuration>
-            <failOnViolation>true</failOnViolation> <!-- this is actually true by default, but can be disabled -->
-            <printFailingErrors>true</printFailingErrors>
-        </configuration>
+        <version>4.0.0</version>
         <executions>
           <execution>
             <goals>
